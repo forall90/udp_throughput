@@ -1,0 +1,42 @@
+BasedOnStyle: LLVM
+UseTab: Never
+IndentWidth: 4
+TabWidth: 4
+BreakBeforeBraces: Allman
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: false
+ColumnLimit: 0
+AccessModifierOffset: -4  # The extra indent or outdent of access modifiers, e.g. public:.
+NamespaceIndentation: All
+MaxEmptyLinesToKeep: 1
+FixNamespaceComments: true
+# AlignAfterOpenBracket: Align
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: true
+  AlignConsecutiveDeclarations: true
+  PadOperators: true
+
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: true
+  AlignConsecutiveDeclarations: true
+  PadOperators: true
+
+AlignTrailingComments: 
+  Kind: Always
+  OverEmptyLines: 2
+
+PackConstructorInitializers: Never
+# ConstructorInitializerIndentWidth: 0
+BreakConstructorInitializers: BeforeComma
+
+BreakInheritanceList: BeforeComma
+# InsertNewlineAtEOF: true
+AllowShortLambdasOnASingleLine: All
+
